@@ -3,11 +3,11 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from googleapiclient.discovery import build
 
 # Spotify credentials
-SPOTIFY_CLIENT_ID = 'eacefb2552ed4968b9881b42153e5300'
-SPOTIFY_CLIENT_SECRET = '5e169fa5ceae4705b0102ab02817edb7'
+SPOTIFY_CLIENT_ID = 'add_your_id'
+SPOTIFY_CLIENT_SECRET = 'add_your_secret'
 
 # YouTube Data API key
-YOUTUBE_API_KEY = 'AIzaSyBUYsZAlX0nDJNJpH4IKtAqiAkqTbLMIsU'
+YOUTUBE_API_KEY = 'add_your_key'
 
 # Initialize Spotify API
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secret=SPOTIFY_CLIENT_SECRET))
